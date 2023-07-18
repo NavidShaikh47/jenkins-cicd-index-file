@@ -1,3 +1,5 @@
 #!/bin/bash
-systemctl start apache2
+echo "starting Server"
+sudo systemctl start apache2
+echo "Server Started"
 
